@@ -3,7 +3,7 @@
 ### Overview
 This report covers the process and results of building a classification model to determine financial marketing results.
 
-The notebook used to build this analysis comes from this link:
+The notebook used to build this analysis comes from this link: https://github.com/vishaka21/UCB-Comparing-Classifiers/blob/main/prompt_III.ipynb
 
 The dataset comes from the UCI ML repo: https://archive.ics.uci.edu/dataset/222/bank+marketing
 
@@ -41,6 +41,7 @@ We selected a baseline "model" with which we could compare our classifier models
 "Model" is in quotes here because it is not a model--it only represent something that can be known after the fact.
 
 The good news is that all models are very close to the majority classifer; unfortunatley they are all just underperforming that benchmark:
+![image](https://github.com/vishaka21/UCB-Comparing-Classifiers/assets/492576/661d9c5c-23e9-4798-a754-97dc2b07af15)
 
 
 Actually, performance is better on the training accuracy than the test accuracy, implying some level of overfitting. In other words, these models might be too complex for the data! Or in other words, the dataset is imbalanced, with the "no's" being a dominant class.
