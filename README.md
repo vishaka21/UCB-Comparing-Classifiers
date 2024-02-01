@@ -41,6 +41,7 @@ We selected a baseline "model" with which we could compare our classifier models
 "Model" is in quotes here because it is not a model--it only represent something that can be known after the fact.
 
 The good news is that all models are very close to the majority classifer; unfortunatley they are all just underperforming that benchmark:
+
 ![image](https://github.com/vishaka21/UCB-Comparing-Classifiers/assets/492576/661d9c5c-23e9-4798-a754-97dc2b07af15)
 
 
